@@ -1,0 +1,41 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Analytics.csv",
+				"folderPath": "Emplyoee Details Input",
+				"container": "bananacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "100",
+				"type": "String"
+			},
+			{
+				"name": "akash",
+				"type": "String"
+			},
+			{
+				"name": "INDIA",
+				"type": "String"
+			},
+			{
+				"name": "1",
+				"type": "String"
+			}
+		]
+	}
+}
