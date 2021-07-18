@@ -1,0 +1,9 @@
+{
+	"name": "GIT-DATAFACTORY",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1b45ec6a-21f0-40e2-8e5e-a4b148e55523",
+		"tenantId": "7282a3fc-026f-45c7-a94c-700d62c60b2b"
+	}
+}
